@@ -27,7 +27,7 @@ public class RegistroEntity {
 
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "id_registro")
+	@Column(name = "id")
     private Long id;
     
 	@Column(name = "descricao", nullable = false, length = 255)

@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://<servidor>:<porta>;databaseName=<nome_do_banco>
+    username: <seu_usuario>
+    password: <sua_senha>
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
